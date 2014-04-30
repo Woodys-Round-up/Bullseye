@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+	string name;
+	cout<<"Hello, what is your name?";
+	cin>>name;
+	cout<<"Hello "<<name<<", how are you today?";
+
+return 0;
+}

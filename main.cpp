@@ -1,7 +1,9 @@
-!/bin/sh
+#include"EXAMPLE_H.h"
 
-greet = raw_input("Hello, what is your name?)
-
-print("Hello"),
-print($greet),
-print(" , how are you today?")
+int main()
+{
+	int area;
+	area = mySquare();
+	cout << "The area is : " << area << endl;
+	system("pause");
+}
